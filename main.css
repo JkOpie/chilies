@@ -138,20 +138,34 @@ height: 85px;
 
    .find_heading{
     text-align: left;
-    font: Bold 28px/33px Lucida Grande;
+    font: Bold 28px/33px LucidaGrande ;
     letter-spacing: 0px;
     color: #C9C6C6;
    }
 
    .undeline_text{
     text-decoration: underline;
-    font: Regular 22px/26px Lucida Grande;
+    font:22px/26px LucidaGrande;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+   }
+
+   .undeline_text_li{
+    
+    font: 22px/26px LucidaGrande;
+    font-weight: 100;
     letter-spacing: 0px;
     color: #FFFFFF;
    }
 
    .undeline_text:hover{
     color: #FFFFFF;
+   }
+
+   .list_contries{
+    font-style: GothamRoundedBold;
+    font-size: 25px;
+    letter-spacing: 0px;
    }
 
 
