@@ -1,18 +1,17 @@
-   
    @font-face {
-    font-family: GothamRoundedBold;
-    src: url("fonts/GothamRounded-Bold.otf") format("opentype");
-    }
+       font-family: GothamRoundedBold;
+       src: url("fonts/GothamRounded-Bold.otf") format("opentype");
+   }
 
-    @font-face {
-        font-family: GothamLightRegular;
-        src: url("fonts/GothamLightRegular.otf") format("opentype");
-    }
+   @font-face {
+       font-family: GothamLightRegular;
+       src: url("fonts/GothamLightRegular.otf") format("opentype");
+   }
 
-    @font-face {
-        font-family: LucidaGrande;
-        src: url("fonts/LucidaGrandeBold.ttf") format("truetype");
-    }
+   @font-face {
+       font-family: LucidaGrande;
+       src: url("fonts/LucidaGrande.ttf") format("truetype");
+   }
 
 
    #site-header {
@@ -39,17 +38,17 @@
        width: 100%;
    }
 
-   .gotham_font_round{
-    font: Bold 75px/105px GothamRoundedBold;
-    letter-spacing: 0px;
+   .gotham_font_round {
+       font: Bold 75px/105px GothamRoundedBold;
+       letter-spacing: 0px;
    }
 
-   .gotham_font_light{
-    text-align: left;
-    font: Regular 22px/40px GothamLightRegular;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+   .gotham_font_light {
+       text-align: left;
+       font: Regular 22px/40px GothamLightRegular;
+       letter-spacing: 0px;
+       color: #FFFFFF;
+       opacity: 1;
    }
 
    .center {
@@ -70,7 +69,7 @@
 
    .text_chilies {
        color: red;
-       
+
    }
 
    .btn_know {
@@ -79,7 +78,7 @@
        background: #D54345 0% 0% no-repeat padding-box;
        opacity: 1;
 
-       
+
        text-align: center;
        font: Bold 22px/40px LucidaGrande;
        letter-spacing: 2.2px;
@@ -88,85 +87,110 @@
        opacity: 1;
    }
 
-   .heading_block_3{
-    
-    font: Bold 50px/60px LucidaGrande;
-    color: #1D1D1B;
-    opacity: 1;
+   .heading_block_3 {
+
+       font: Bold 50px/60px LucidaGrande;
+       color: #1D1D1B;
+       opacity: 1;
    }
 
-   .p_block_3{
-    font: Regular 20px/35px GothamLightRegular;
-    color: #1D1D1B;
-    opacity: 1;
+   .p_block_3 {
+       font: Regular 20px/35px GothamLightRegular;
+       color: #1D1D1B;
+       opacity: 1;
    }
 
-   .p_block_3_black{
-    font: Bold  23px/30px GothamRoundedBold;
-    color: #1D1D1B;
+   .p_block_3_black {
+       font: Bold 23px/30px GothamRoundedBold;
+       color: #1D1D1B;
    }
 
-   .btn_more{
-    width: 295px;
-    height: 85px;
-    background: #1D1D1B 0% 0% no-repeat padding-box;
-    text-align: center;
-    font: Bold 22px/40px LucidaGrande;
-    letter-spacing: 2.2px;
-    color: #FFFFFF;
-    text-transform: uppercase;
+   .btn_more {
+       width: 295px;
+       height: 85px;
+       background: #1D1D1B 0% 0% no-repeat padding-box;
+       text-align: center;
+       font: Bold 22px/40px LucidaGrande;
+       letter-spacing: 2.2px;
+       color: #FFFFFF;
+       text-transform: uppercase;
    }
 
-   .btn_chart{
+   .btn_chart {
 
-    width: 295px;
-height: 85px;
-    background: #1D1D1B 0% 0% no-repeat padding-box;
-    text-align: center;
-    font: Bold 22px/40px LucidaGrande;
-    letter-spacing: 2.2px;
-    color: #FFFFFF;
-    text-transform: uppercase;
+       width: 295px;
+       height: 85px;
+       background: #1D1D1B 0% 0% no-repeat padding-box;
+       text-align: center;
+       font: Bold 22px/40px LucidaGrande;
+       letter-spacing: 2.2px;
+       color: #FFFFFF;
+       text-transform: uppercase;
    }
 
-   .heading_block_4{
-    
-    font: Bold 50px/59px LucidaGrande;
-    letter-spacing: 0px;
-   
+   .heading_block_4 {
+
+       font: Bold 50px/59px LucidaGrande;
+       letter-spacing: 0px;
+
    }
 
-   .find_heading{
-    text-align: left;
-    font: Bold 28px/33px LucidaGrande ;
-    letter-spacing: 0px;
-    color: #C9C6C6;
+   .find_heading {
+       text-align: left;
+       font: Bold 28px/33px LucidaGrande;
+       letter-spacing: 0px;
+       color: #C9C6C6;
    }
 
-   .undeline_text{
-    text-decoration: underline;
-    font:22px/26px LucidaGrande;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+   .undeline_text {
+       text-decoration: underline;
+       font: 22px/26px LucidaGrande;
+       letter-spacing: 0px;
+       color: #FFFFFF;
    }
 
-   .undeline_text_li{
-    
-    font: 22px/26px LucidaGrande;
-    font-weight: 100;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+   .undeline_text_li {
+
+       font: 22px/26px LucidaGrande;
+       font-weight: 100;
+       letter-spacing: 0px;
+       color: #FFFFFF;
    }
 
-   .undeline_text:hover{
-    color: #FFFFFF;
+   .undeline_text:hover {
+       color: #FFFFFF;
    }
 
-   .list_contries{
-    font-style: GothamRoundedBold;
-    font-size: 25px;
-    letter-spacing: 0px;
+   .list_contries {
+       font-style: GothamRoundedBold;
+       font-size: 25px;
+       letter-spacing: 0px;
    }
 
 
+   .left_div {
+       width: 800px;
+       float: right;
+   }
 
+   .right_div {
+       width: 800px;
+       float: left;
+   }
+
+
+   @media screen and (max-width: 992px) {
+       .left_div { width: 480px;}
+       .right_div {  width: 480px;}
+   }
+
+   @media screen and (max-width: 600px) {
+    .left_div { width: 300px; }
+    .right_div { width: 300px;}
+
+}
+
+@media screen and (max-width: 320px) {
+    .left_div { width: 100%;}
+    .right_div { width: 100%; }
+}
