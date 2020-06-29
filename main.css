@@ -118,6 +118,9 @@
    }
 
    .btn_chart{
+
+    width: 295px;
+height: 85px;
     background: #1D1D1B 0% 0% no-repeat padding-box;
     text-align: center;
     font: Bold 22px/40px LucidaGrande;
@@ -138,6 +141,17 @@
     font: Bold 28px/33px Lucida Grande;
     letter-spacing: 0px;
     color: #C9C6C6;
+   }
+
+   .undeline_text{
+    text-decoration: underline;
+    font: Regular 22px/26px Lucida Grande;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+   }
+
+   .undeline_text:hover{
+    color: #FFFFFF;
    }
 
 
