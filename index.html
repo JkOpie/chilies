@@ -24,6 +24,60 @@
     ul.primary-menu > li.menu-item > a {
         color: white;
     }
+
+	@font-face{
+		font-family:'lucida-grande';
+		src: url('fonts/LucidaGrande.ttf');
+	}
+	@font-face{
+		font-family:'gotham-rounded-bold';
+		src: url('fonts/GothamRoundedBold.ttf');
+	}
+	@font-face{
+		font-family:'abril-fatface';
+		src: url('fonts/AbrilFatfaceRegular.ttf');
+	}
+	@font-face{
+		font-family:'gotham-light';
+		src: url('fonts/GothamLight.ttf');
+	}
+	@font-face{
+		font-family:'gotham-regular';
+		src: url('fonts/GothamRounded.ttf');
+	}
+	.title-lucida{
+		font-size:50px;
+		font-weight:bold;
+		font-family:lucida-grande;
+	}
+	.subtitle-red{
+		font-size:32px;
+		color:#D54345;
+		font-family:gotham-regular
+	}
+	.subtitle-span{
+		font-size:35px;
+		font-family:abril-fatface;
+		font-weight:bold;
+	}
+	.subtitle-sub{
+		font-size:20px;
+		font-family:gotham-light;
+	}
+	.subtitle-norm{
+		font-size:23px;
+		font-weight:500;
+	}
+	.button_black{
+		background-color: #1D1D1B;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 22px;
+	}
 </style>
 <body>
 
@@ -138,6 +192,39 @@
                 </div>
             </div>
         </div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6 p-5">
+					<p class="title-lucida">No.1 Engagement Agency, Innovate, Total Brand Solutions in the Region</p><br>
+					<p class="subtitle-red">Maximise Our <span class="subtitle-span">Experience</span></p>
+					<p class="subtitle-sub">First event agency to be certified ISO:9001 and OSHAS:18001, first to create a 42m in diameter column less dome in Malaysia, all these through creative brand strategy.</p>
+
+					<p class="subtitle-red">Leverage on Our <span class="subtitle-span">Exposure</span></p>
+					<p class="subtitle-sub">With networks and chapters locally and internationally, we have establish internal and external strategic partnerships, serving national, regional and local clients.</p>
+
+					<p class="subtitle-red">Benefit From Our <span class="subtitle-span">Expertise</span></p>
+					<p class="subtitle-sub">We deliver under all circumstances which is one of the key pillars of our success. Our team consists people with wide and strategic field of expertise with extreme dedication, passion and attention to detail.</p>
+
+				</div>
+				<div class="col-6 no-padding" style="background-color:#FFC900">
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6 no-padding" style="background-image:url('img/image_2.png');background-position:center">
+				</div>
+				<div class="col-6 p-5">
+					<p class="title-lucida">Every Encounter Is an Experience With Us</p><br>
+					<p class="subtitle-sub">Our clients view our portfolio as a demonstration of our standing as a world-class event agency. It also illustrates how we integrate on-ground solutions to help our clients build brands, reach customers, employees and stakeholders with effective and lasting results.</p>
+					<p class="subtitle-norm">A network of over 42 offices in over 20 countries around the world.</p><br>
+					<button class="button_black">Tell Me More</button>
+				</div>
+			</div>
+		</div>
+
     </main>
     
 </body>
