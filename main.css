@@ -1,0 +1,74 @@
+   #site-header {
+       background: transparent;
+       position: fixed;
+       width: 100%;
+   }
+
+   .no-padding {
+       padding: 0px;
+   }
+
+   .black-bg {
+       background-color: black;
+       color: white;
+   }
+
+   ul.primary-menu>li.menu-item>a {
+       color: white;
+   }
+
+   .img_main {
+       height: 100vh;
+       width: 100%;
+   }
+
+   .gotham_font_round{
+    font: Bold 75px/105px Gotham Rounded;
+    letter-spacing: 0px;
+   }
+
+   .gotham_font_light{
+    text-align: left;
+    font: Regular 22px/40px Gotham Light;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+   }
+
+   .center {
+       text-align: left;
+       top: 50%;
+       /* 3 */
+       transform: translate(0, -50%);
+   }
+
+   .center h1 {
+       font-size: 75px;
+       padding-bottom: 2%;
+
+   }
+
+   .center p {
+       font-size: 22px;
+   }
+
+   .text_chilies {
+       color: red;
+       
+   }
+
+   .btn_know {
+       width: 295px;
+       height: 85px;
+       background: #D54345 0% 0% no-repeat padding-box;
+       opacity: 1;
+
+       
+       text-align: center;
+       font: Bold 22px/40px Lucida Grande;
+       letter-spacing: 2.2px;
+       color: #FFFFFF;
+       text-transform: uppercase;
+       opacity: 1;
+   }
+
