@@ -1,234 +1,457 @@
-   @font-face {
-       font-family: GothamRoundedBold;
-       src: url("fonts/GothamRounded-Bold.otf") format("opentype");
-   }
+@font-face {
+    font-family: 'GothamRoundedBold';
+    src: url("fonts/GothamRounded-Bold.otf") format("opentype");
+}
 
-   @font-face {
-       font-family: GothamLightRegular;
-       src: url("fonts/GothamLightRegular.otf") format("opentype");
-   }
+@font-face {
+    font-family: 'GothamLightRegular';
+    src: url("fonts/GothamLightRegular.otf") format("opentype");
+}
 
-   @font-face {
-       font-family: LucidaGrande;
-       src: url("fonts/LucidaGrande.ttf") format("truetype");
-   }
+@font-face {
+    font-family: 'LucidaGrande';
+    src: url("fonts/LucidaGrande.ttf") format("truetype");
+}
 
+@font-face {
+     font-family: 'lucida-grande';
+     src: url('fonts/LucidaGrande.ttf');
+ }
 
-   #site-header {
-       background: transparent;
-       position: fixed;
-       width: 100%;
-   }
+ @font-face {
+     font-family: 'gotham-rounded-bold';
+     src: url('fonts/GothamRoundedBold.ttf');
+ }
 
-   .no-padding {
-       padding: 0px;
-   }
+ @font-face {
+     font-family: 'abril-fatface';
+     src: url('fonts/AbrilFatfaceRegular.otf');
+ }
 
-   .black-bg {
-       background-color: black;
-       color: white;
-   }
+ @font-face {
+     font-family: 'gotham-light';
+     src: url('fonts/GothamLight.ttf');
+ }
 
-   ul.primary-menu>li.menu-item>a {
-       color: white;
-   }
+ @font-face {
+     font-family: 'gotham-regular';
+     src: url('fonts/GothamRounded.ttf');
+ }
 
-   .img_main {
-       height: 100vh;
-       width: 100%;
-   }
-
-   .gotham_font_round {
-       font: Bold 75px/105px GothamRoundedBold;
-       letter-spacing: 0px;
-   }
-
-   .gotham_font_light {
-       text-align: left;
-       font: Regular 22px/40px GothamLightRegular;
-       letter-spacing: 0px;
-       color: #FFFFFF;
-       opacity: 1;
-   }
-
-   .center {
-       text-align: left;
-       top: 50%;
-       /* 3 */
-       transform: translate(0, -50%);
-   }
-
-   .center h1 {
-       font-size: 75px;
-       padding-bottom: 2%;
-   }
-
-   .center p {
-       font-size: 22px;
-   }
-
-   .text_chilies {
-       color: red;
-
-   }
-
-   .btn_know {
-       width: 295px;
-       height: 85px;
-       background: #D54345 0% 0% no-repeat padding-box;
-       opacity: 1;
+#site-footer{
+ background-color: #D54345 ;
+}
 
 
-       text-align: center;
-       font: Bold 22px/40px LucidaGrande;
-       letter-spacing: 2.2px;
-       color: #FFFFFF;
-       text-transform: uppercase;
-       opacity: 1;
-   }
 
-   .heading_block_3 {
+#site-header {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+}
 
-       font: Bold 50px/60px LucidaGrande;
-       color: #1D1D1B;
-       opacity: 1;
-   }
+.nav-toggle .toggle-inner{
+ 
+ color:#fff;
+}
 
-   .p_block_3 {
-       font: Regular 20px/35px GothamLightRegular;
-       color: #1D1D1B;
-       opacity: 1;
-   }
+.no-padding {
+    padding: 0px;
+}
 
-   .p_block_3_black {
-       font: Bold 23px/30px GothamRoundedBold;
-       color: #1D1D1B;
-   }
+.black-bg {
+    background-color: black;
+    color: white;
+    
+}
 
-   .btn_more {
-       width: 295px;
-       height: 85px;
-       background: #1D1D1B 0% 0% no-repeat padding-box;
-       text-align: center;
-       font: Bold 22px/40px LucidaGrande;
-       letter-spacing: 2.2px;
-       color: #FFFFFF;
-       text-transform: uppercase;
-   }
+ul.primary-menu>li.menu-item>a {
+    color: white;
+}
 
-   .btn_chart {
+.img_main {
+    height: 100vh;
+    width: 100%;
+}
 
-       width: 295px;
-       height: 85px;
-       background: #1D1D1B 0% 0% no-repeat padding-box;
-       text-align: center;
-       font: Bold 22px/40px LucidaGrande;
-       letter-spacing: 2.2px;
-       color: #FFFFFF;
-       text-transform: uppercase;
-   }
+.all_rights{
+    font-family: GothamLightRegular;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: right;
+    background: #D54345 0% 0% no-repeat padding-box;
+}
 
-   .heading_block_4 {
+.gotham_font_round {
+    font-family: GothamRoundedBold;
+    font-size: calc(35px + (75 - 35) * ((100vw - 300px) / (1600 - 300)));
+    
+}
 
-       font: Bold 50px/59px LucidaGrande;
-       letter-spacing: 0px;
+.gotham_font_light {
+    text-align: left;
+    font-family: GothamLightRegular;
+    font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
 
-   }
+.padding_custom_block_1{
+   padding-top: 100px;
+ padding-bottom: 10%;
+ padding-left: 7%;
+ padding-right: 7%;
+ 
+}
 
-   .find_heading {
-       text-align: left;
-       font: Bold 28px/33px LucidaGrande;
-       letter-spacing: 0px;
-       color: #C9C6C6;
-   }
+.center {
+    text-align: left;
+}
 
-   .undeline_text {
-       text-decoration: underline;
-       font: 22px/26px LucidaGrande;
-       letter-spacing: 0px;
-       color: #FFFFFF;
-   }
+.text_chilies {
+    color: red;
+        text-decoration: underline;
 
-   .undeline_text_li {
+}
 
-       font: 22px/26px LucidaGrande;
-       font-weight: 100;
-       letter-spacing: 0px;
-       color: #FFFFFF;
-   }
+.btn_know {
+    width: calc(200px + (295 - 200) * ((100vw - 300px) / (1600 - 300)));
+    height: calc(70px + (85 - 70) * ((100vw - 300px) / (1600 - 300)));
+    background: #D54345 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
+    font-family: LucidaGrande;
+    letter-spacing: 2.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
 
-   .undeline_text:hover {
-       color: #FFFFFF;
-   }
+.heading_block_3 {
+    font: Bold 50px/60px LucidaGrande;
+    color: #1D1D1B;
+    opacity: 1;
+}
 
-   .list_contries {
-       font-style: GothamRoundedBold;
-       font-size: 25px;
-       letter-spacing: 0px;
-   }
+.p_block_3 {
+    font: Regular 20px/35px GothamLightRegular;
+    color: #1D1D1B;
+    opacity: 1;
+}
+
+.p_block_3_black {
+    font: Bold 23px/30px GothamRoundedBold;
+    color: #1D1D1B;
+}
+
+.btn_more {
+    width: 295px;
+    height: 85px;
+    background: #1D1D1B 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: Bold 22px/40px LucidaGrande;
+    letter-spacing: 2.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.btn_chart {
+
+    width: 295px;
+    height: 85px;
+    background: #1D1D1B 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: Bold 22px/40px LucidaGrande;
+    letter-spacing: 2.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.heading_block_4 {
+
+    font: Bold 50px/59px LucidaGrande;
+    letter-spacing: 0px;
+
+}
+
+.find_heading {
+    text-align: left;
+    font: Bold 23px LucidaGrande;
+    letter-spacing: 0px;
+    color: #C9C6C6;
+}
+
+.undeline_text {
+    text-decoration: underline;
+    font: bold 20px  LucidaGrande;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.undeline_text_li {
+
+    font: 20px LucidaGrande;
+    font-weight: 100;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.list-inline-item{
+ font: 20px LucidaGrande;
+ font-weight: 100;
+ letter-spacing: 0px;
+ color: #FFFFFF;
+}
+
+.undeline_text:hover {
+    color: #FFFFFF;
+}
+
+.list_contries {
+    font-style: GothamRoundedBold;
+    font-size: 25px;
+    letter-spacing: 0px;
+}
 
 
-   .left_div {
-       width: 800px;
-       float: right;
-   }
+.left_div {
+    width: 800px;
+    float: right;
+}
 
-   .right_div {
-       width: 800px;
-       float: left;
-   }
+.right_div {
+    width: 100%;
+    float: left;
+}
+
+.img_wrapper{
+    width: 100%;
+}
 
 
-   @media screen and (max-width: 992px) {
-       .left_div {
-           width: 480px;
-       }
+ .title-lucida {
+     font-size: calc(32px + (45 - 32) * ((100vw - 300px) / (1600 - 300)));
+     font-weight: bold;
+     font-family: lucida-grande;
+ }
 
-       .right_div {
-           width: 97%;
-       }
+ .subtitle-red {
+     font-size: calc(26px + (32 - 26) * ((100vw - 300px) / (1600 - 300)));
+     color: #D54345;
+     font-family: gotham-regular;
+     margin: 0;
+ }
 
-       .center {
-           transform: translate(0, -127%);
-           text-align: center;
-       }
+ .subtitle-span {
+     font-size: calc(28px + (35 - 28) * ((100vw - 300px) / (1600 - 300)));
+     font-family: abril-fatface;
+     font-weight: bold;
 
-       .gotham_font_light {
-           text-align: center;
-       }
-   }
+ }
 
-   @media screen and (max-width: 600px) {
-       .left_div {
-           width: 300px;
-       }
+ .subtitle-sub {
+     font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
+     font-family: gotham-light;
+     padding-bottom: 2em;
+     margin-bottom: 0;
+ }
 
-       .right_div {
-           transform: translate(0, -107%);
-       }
+ .subtitle-norm {
+     font-size: calc(19px + (23 - 19) * ((100vw - 300px) / (1600 - 300)));
+     font-weight: 500;
+ }
 
-   }
+ .button_black {
+     background-color: #1D1D1B;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 22px;
+     margin-top: 30px;
 
-   @media screen and (max-width: 320px) {
-       .left_div {
-           width: 100%;
-       }
+ }
 
-       .right_div {
-           width: 100%;
-           transform: translate(0, -102%);
-       }
+ .pad-par {
+     padding-top: 94px;
+     padding-bottom: 94px;
+     padding-right: 120px;
+ }
 
-       .center p {
-           font-size: 20px;
-       }
+ .pad-par2 {
+     padding-top: 94px;
+     padding-bottom: 94px;
+     padding-left: 80px;
+     padding-right: 120px;
+ }
 
-       .center h1 {
-           font-size: 50px;
-       }
+ .block-2-right{
 
-       .btn_know {
-           width: 250px;
-           font-size: 19px;
-       }
-   }
+ }
+
+.header-footer-group{
+ z-index:900;
+}
+
+.scrolling {
+ background-color: rgba(0, 0, 0, 1) !important;
+}
+
+ .block-3-right {
+     background: none
+ }
+ .block-3-left {
+     height:100vh;
+ }
+
+ .left_div_b2 {
+     width: 95%;
+     float: right;
+             padding-left: 10%;
+ }
+
+ .right_div_b2 {
+     width: 95%;
+     float: left;
+ }
+
+.footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer{
+ margin-top:0;
+}
+
+.reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper, .reduced-spacing.footer-top-hidden #site-footer{
+ background-color: #D54345;
+}
+
+.widget-title{
+ font-family: LucidaGrande;
+ font-size:calc(30px + (50 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+@media screen and (max-width: 960px) {
+
+     .img_wrapper{
+         display: none;
+     }
+
+     .black-bg{
+         background:   linear-gradient( to bottom, 
+         rgb(2,0,36,0.4), 
+         rgba(144,131,131,0.4)
+           ), url('https://mychilli.asia/wp-content/uploads/2020/06/bg.png');
+
+         background-size: 100% 100%;
+         cursor: pointer;
+         min-height:100vh;
+     }
+
+
+     .left_div {
+        width: 480px;
+    }
+
+    .right_div {
+        width: 100%;
+    }
+      
+              .left_div_b2 {
+        width: 100%;
+    }
+
+    .right_div_b2 {
+        width: 95%;
+    }
+
+    .center {
+       
+        text-align: left;
+    }
+
+    .gotham_font_light {
+        text-align: left;
+    }
+      
+    .pad-par2 {
+     padding-top: 10%;
+     padding-bottom: 10%;
+     padding-left: 12.5%;
+     padding-right: 7%;
+     }
+     .pad-par {
+    padding-top: 10%;
+         padding-bottom: 10%;
+         padding-left: 13%;
+         padding-right: 7%;;
+      }
+      .block-3-right {
+          background:
+          linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.65)), 
+          url(img/image_2.png);
+          background-position: center;
+      }
+      .block-3-left {
+          display:none;
+      }
+      
+      .block-2-left {
+         display:none;
+     }
+      
+       
+}
+
+@media screen and (max-width: 600px) {
+    .left_div {
+        width: 300px;
+    }
+      
+              .left_div_b2 {
+        width: 100%;
+    }
+
+    .right_div_b2 {
+     width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .left_div {
+        width: 100%;
+    }
+
+    .right_div {
+        width: 100%;
+        
+    } 
+      
+           .left_div_b2 {
+        width: 100%;
+    }
+
+    .right_div_b2 {
+        width: 100%;
+    }
+
+    .btn_know {
+        width: 250px;
+        font-size: 19px;
+    }
+      
+           .pad-par2 {
+     padding-top: 10%;
+     padding-bottom: 10%;
+     padding-left: 7%;
+     padding-right: 7%;
+     }
+     .pad-par {
+     padding-top: 10%;
+     padding-bottom: 10%;
+     padding-left: 7%;
+     padding-right: 7%;
+      }
+}
